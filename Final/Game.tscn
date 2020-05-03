@@ -56,7 +56,7 @@ __meta__ = {
 position = Vector2( 518.654, 288.547 )
 scale = Vector2( 0.393131, 0.393131 )
 frames = SubResource( 1 )
-frame = 3
+frame = 8
 speed_scale = 5.0
 playing = true
 
@@ -256,6 +256,9 @@ margin_right = 252.0
 margin_bottom = 415.0
 custom_fonts/font = SubResource( 5 )
 autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="pressed" from="Big_Business_1" to="." method="_on_Big_Business_1_pressed"]
 [connection signal="pressed" from="Big_Business_2" to="." method="_on_Big_Business_2_pressed"]
 [connection signal="pressed" from="Big_Business_3" to="." method="_on_Big_Business_3_pressed"]
